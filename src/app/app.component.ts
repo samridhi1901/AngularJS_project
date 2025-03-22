@@ -8,9 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'HelloWorldApp';
   bridgeLabzLogo: string = 'assets/logo.jpg';
-  bridgeLabzUrl: string = 'https://www.bridgelabz.com';
+  userName: string = '';
 
-  openBridgeLabz() {
-    window.open(this.bridgeLabzUrl, '_blank');
-  }
+  
+  
 }
